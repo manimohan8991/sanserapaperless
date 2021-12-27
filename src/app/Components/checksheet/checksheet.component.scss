@@ -1,0 +1,36 @@
+li {
+    display: inline;
+}
+ul {
+    margin-bottom: .25rem;
+}
+
+input[type=text], .dropdown-toggle{
+    border: 1px solid lightgray;
+    color: #0A0E21;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 100%;
+    height: 46px;
+    border-radius: 6px 6px 6px 6px;
+    font-size: 14px;
+}
+
+textarea{
+margin-top: 3px;
+}
+.approve .label, .approve label {
+  
+    margin-left: 10px;
+}
+
+::ng-deep .mat-select-arrow {
+    border-left: 24px solid transparent !important;
+    border-right: none !important;
+    border-top: 15px solid transparent !important;
+    border-image-source: url('../../../assets/images/Icon\ awesome-angle-down.svg') !important;
+    border-image-repeat: stretch !important;
+}

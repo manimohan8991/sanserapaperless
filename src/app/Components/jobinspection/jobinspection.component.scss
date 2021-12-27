@@ -1,0 +1,21 @@
+li {
+    display: inline;
+}
+ul {
+    margin-bottom: .25rem;
+}
+
+input[type=text], .dropdown-toggle {
+    height: 42px;
+    width: 90%;
+    border-radius: 8px 8px 8px 8px;
+}
+.as-col-md-5{
+max-width: 48%;
+flex: 0 0 46.666667%;
+margin-bottom: .75rem;
+}
+
+textarea{
+    margin-top: 20px;
+}

@@ -1,0 +1,15 @@
+li {
+    display: inline;
+}
+ul {
+    margin-bottom: .25rem;
+}
+
+input[type=text], .dropdown-toggle {
+    height: 42px;
+    width: 90%;
+    border-radius: 8px 8px 8px 8px;
+}
+.flex-nowrap{
+    flex-wrap: nowrap;
+}

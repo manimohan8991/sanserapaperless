@@ -1,0 +1,103 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light-1 as-font-22">
+    <div class="back-icon	fa fa-chevron-left"></div>
+    <a href="#" class="navbar-brand">
+        <img src="../../../assets/images/Sansera-Logo.png" height="35" alt="Sansera">
+    </a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ml-auto">
+            <div href="#" class="nav-item nav-link active  mr-5">Upload</div>
+            
+
+        </div>
+        <div class="navbar-nav ml-auto">
+            <div class="nav-item nav-link">Admin</div>
+            <div>
+                <img src="../../../assets/images/user.png" class="user-img" alt="user">
+            </div>
+
+        </div>
+    </div>
+</nav>
+<form>
+    <div class="login-box">
+        <div class=" row">
+            <div class="col-md-6">
+                <div>
+                    <label class="label">File Name</label>
+                    <input type="text" id="login" class="fadeIn second" name="login" >
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <label class="label">Machine Name</label>
+                    <input type="text" id="login" class="fadeIn second" name="login" >
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <label class="label">Equip Number</label>
+                   
+                      <mat-form-field appearance="fill">
+                        <mat-select  matNativeControl required
+                            formControlName="shift_num"  panelClass="dropDown-seasons-panel">
+                            <mat-option value="all">All</mat-option>
+  
+                            <mat-option  value="123">
+                                123
+                            </mat-option>
+                            <mat-option  value="123">
+                                123
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <label class="label">Select Component</label>
+                    <mat-form-field appearance="fill">
+                        <mat-select  matNativeControl required
+                            formControlName="shift_num"  panelClass="dropDown-seasons-panel">
+                            <mat-option value="all">All</mat-option>
+  
+                            <mat-option  value="123">
+                                123
+                            </mat-option>
+                            <mat-option  value="123">
+                                123
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
+            <div class="col-md-12 mt-3">
+                <div class="frame">
+                    <div class="center">
+                        
+                        <div class="dropzone">
+                            <img src="http://100dayscss.com/codepen/upload.svg" class="upload-icon" />
+                            <input type="file" class="upload-input" />
+                            <div class="title">
+                                <h5>Select a File </h5>
+                                <h1>Drag and drop file hear</h1>
+                            </div>
+                        </div>
+                        
+                
+                        <!-- <button type="button" class="btn" name="uploadbutton">Upload file</button> -->
+                
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-12 text-center">
+                <button type="submit" class="btn btn-blue w-50"> Upload</button>
+            </div>
+        </div>
+
+    </div>
+</form>
